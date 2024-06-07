@@ -31,7 +31,7 @@ git clone https://github.com/mastersans/packet-dropper.git
 
 2. Navigate to the Repository: Change to the directory containing the packet-dropper source code.
 ```bash
-cd port_packet_dropper
+cd packet-dropper-port
 ```
 
 3. Install Prerequisites: Ensure that the necessary prerequisites (Clang/LLVM, Go, and BPF headers) are installed on your system. You can install them using your system's package manager.
