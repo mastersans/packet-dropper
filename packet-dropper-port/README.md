@@ -1,5 +1,11 @@
 # Packet Dropper
 
+![image](images/packet-dropper.png)
+
+Below command used to test out the tool.
+```css
+echo "Test" | nc -v localhost 4040
+```
 ## Overview
 The Packet Dropper tool (packet-dropper) is a command-line utility designed to drop incoming network packets on a specified port using eBPF (Extended Berkeley Packet Filter) technology. This tool can be useful for testing network security configurations or implementing custom packet filtering logic.
 
