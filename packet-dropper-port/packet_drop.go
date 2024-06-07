@@ -17,12 +17,6 @@ import (
 	"golang.org/x/crypto/ssh/terminal"
 )
 
-const (
-	PacketTypeEnter = 1
-	PacketTypeDrop  = 2
-	PacketTypePass  = 3
-)
-
 func listInterfaces() {
 	interfaces, err := net.Interfaces()
 	if err != nil {
